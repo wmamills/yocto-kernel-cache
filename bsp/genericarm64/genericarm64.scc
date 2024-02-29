@@ -1,5 +1,6 @@
 # SPDX-License-Identifier: MIT
 kconf hardware genericarm64.cfg
+kconf hardware zynqmp-extras.cfg
 
 include cfg/8250.scc
 include cfg/boot-live.scc
