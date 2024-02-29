@@ -10,6 +10,9 @@ kconf hardware genericarm64-regulator.cfg
 kconf hardware genericarm64-remoteproc.cfg
 kconf hardware genericarm64-serial.cfg
 
+# board specific beyond defconfig
+kconf hardware zynqmp-kv260.cfg
+
 include cfg/8250.scc
 include cfg/boot-live.scc
 include cfg/efi-ext.scc
